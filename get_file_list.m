@@ -46,4 +46,4 @@ end
 [date_list_ordered,perm] = sort(full_time_list);
 file_list_ordered = full_file_list(perm,:);
  
-save('Siad_list','file_list_ordered','date_list_ordered');
+save('file_list','file_list_ordered','date_list_ordered');
